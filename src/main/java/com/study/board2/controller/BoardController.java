@@ -18,7 +18,7 @@ import org.springframework.web.multipart.MultipartFile;
 public class BoardController {
 
     @Autowired
-    private BoardService boardService;
+    private BoardService boardService; // 커밋1
 
     @GetMapping("/board/write") // localhost:8080/board/write
     public String boardWriteFrom(){
